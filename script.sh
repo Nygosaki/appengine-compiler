@@ -12,5 +12,5 @@ rm -r -f node_modules
 rm -f README.md
 rm -f package.json
 rm -f package-lock.json
-cp ../app.yaml app.yaml
+cp ~/appengine-compiler/app.yaml app.yaml
 gcloud app deploy
