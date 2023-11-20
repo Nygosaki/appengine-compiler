@@ -13,4 +13,4 @@ rm -f README.md
 rm -f package.json
 rm -f package-lock.json
 cp ~/appengine-compiler/app.yaml app.yaml
-gcloud app deploy
+echo gcloud app deploy
