@@ -1,8 +1,8 @@
 runtime: nodejs18
 handlers:
-- url: /(.*\.(js|css|png|jpg|jpeg|gif|ico|webp|avif|svg|txt|xml))$
+- url: /(.*\.(js|css|png|jpg|jpeg|gif|ico|webp|avif|svg|txt|xml|json|yaml))$
   static_files: build/\1
-  upload: build/(.*\.(js|css|png|jpg|jpeg|gif|ico|webp|avif|svg|txt|xml))$
+  upload: build/(.*\.(js|css|png|jpg|jpeg|gif|ico|webp|avif|svg|txt|xml|json|yaml))$
   expiration: "365d"
 
 - url: /.*
